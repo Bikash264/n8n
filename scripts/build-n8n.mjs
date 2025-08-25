@@ -99,7 +99,7 @@ try {
 
 	echo(chalk.green('✅ pnpm install and build completed'));
 } catch (error) {
-	console.error(chalk.red('\n🛑 BUILD PROCESS FAILED!'));
+	console.error(chalk.red('\n🛑 Build Process Failed!'));
 	console.error(chalk.red('An error occurred during the build process:'));
 	process.exit(1);
 }
